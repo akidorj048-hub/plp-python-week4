@@ -8,15 +8,15 @@ print(double(10))
 # Function 2 - is_pass
 def is_pass(score):
     if score >= 50:
-        return "Pass"
-    return "Fail"
+        return "True"
+    return "False"
 print(is_pass(80))
 print(is_pass(20))
 
 
 # Function 3 - greet
-def greet(name, greeting):
-   return name + "," + greeting + "!"
+def greet(name, greeting="Hello"):
+   return greeting + ", " + name + "!"
 
 print(greet("Amina", " Hello"))
 print(greet("Brian", " Habari"))
